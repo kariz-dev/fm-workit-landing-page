@@ -1,4 +1,5 @@
 import Header from "@/components/organisms/Header";
+import MainBanner from "@/components/organisms/MainBanner";
 import Head from "next/head";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <main>
         <Header />
+        <MainBanner />
       </main>
     </>
   );

@@ -2,15 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import Nav from "../molecules/Nav";
 
-function Header() {
+export default function Header() {
   return (
     <Wrapper className="container">
       <Nav />
     </Wrapper>
   );
 }
-
-export default Header;
 
 const Wrapper = styled.div`
   padding-top: 58px;
