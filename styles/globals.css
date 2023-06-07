@@ -25,12 +25,6 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
-
 .container {
   width: 100%;
   display: inline-block;
