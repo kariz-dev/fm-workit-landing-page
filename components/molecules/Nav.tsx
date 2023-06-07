@@ -33,4 +33,5 @@ const NavBtn = styled.a`
   border-bottom: 1px solid #44ffa1;
   padding-bottom: 8px;
   text-decoration: none;
+  color: #fff;
 `;
