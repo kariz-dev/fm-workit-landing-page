@@ -32,8 +32,8 @@ const Wrapper = styled.div`
   padding-bottom: 326px;
   background: #24053e;
   text-align: center;
-  border-bottom-left-radius: 100% 45%;
-  border-bottom-right-radius: 100% 45%;
+  border-bottom-left-radius: 50% 15%;
+  border-bottom-right-radius: 50% 15%;
   position: relative;
   z-index: -1;
 `;
