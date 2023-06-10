@@ -1,7 +1,8 @@
 import HeroIllustration from "@/components/atoms/HeroIllustration";
-import Cards from "@/components/organisms/Cards";
+import Features from "@/components/organisms/Features";
 import Header from "@/components/organisms/Header";
 import MainBanner from "@/components/organisms/MainBanner";
+import Profile from "@/components/organisms/Profile";
 import Head from "next/head";
 
 export default function Home() {
@@ -17,7 +18,8 @@ export default function Home() {
         <Header />
         <MainBanner />
         <HeroIllustration />
-        <Cards />
+        <Features />
+        <Profile />
       </main>
     </>
   );

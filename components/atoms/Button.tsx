@@ -18,9 +18,11 @@ const Cta = styled.a`
   padding: 13px 32px;
   text-decoration: none;
   display: inline-block;
+  cursor: pointer;
+  z-index: 99;
 
   &:hover {
     background: transparent;
-    color: #44ffa1;
+    color: #4ffba5;
   }
 `;
