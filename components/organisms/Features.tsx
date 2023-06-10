@@ -1,9 +1,9 @@
 import styled from "styled-components"
 import Card from "../molecules/Card"
 
-export default function Cards() {
+export default function Features() {
   return (
-    <Wrapper>
+    <Feature>
       <Card
         number={1}
         title="Actionable insights"
@@ -19,11 +19,11 @@ export default function Cards() {
         title="Always affordable"
         desc="Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees."
       />
-    </Wrapper>
+    </Feature>
   )
 }
 
-const Wrapper = styled.div`
+const Feature = styled.div`
   display: flex;
   flex-direction: row;
   gap: 26px;
