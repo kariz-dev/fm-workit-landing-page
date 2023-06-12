@@ -19,7 +19,6 @@ const Cta = styled.a`
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
-  z-index: 99;
 
   &:hover {
     background: transparent;
