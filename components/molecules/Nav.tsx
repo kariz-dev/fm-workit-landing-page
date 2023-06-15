@@ -1,11 +1,15 @@
 import React from "react";
 import styled from "styled-components";
+import Logo from "../atoms/Logo";
 
 function Nav() {
   return (
     <NavMenu className="container">
       <NavLink href="/">
-        <NavLogo src="/images/logo-light.svg" alt="Workit Landing Page" />
+        <Logo 
+          source="logo-light"
+          alt="Logo"
+        />
       </NavLink>
       <NavBtn href="/">Apply for access</NavBtn>
     </NavMenu>
