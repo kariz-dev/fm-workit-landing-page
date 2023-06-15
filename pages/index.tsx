@@ -1,5 +1,6 @@
 import HeroIllustration from "@/components/atoms/HeroIllustration";
 import Features from "@/components/organisms/Features";
+import Footer from "@/components/organisms/Footer";
 import Header from "@/components/organisms/Header";
 import MainBanner from "@/components/organisms/MainBanner";
 import Profile from "@/components/organisms/Profile";
@@ -20,6 +21,7 @@ export default function Home() {
         <HeroIllustration />
         <Features />
         <Profile />
+        <Footer />
       </main>
     </>
   );
