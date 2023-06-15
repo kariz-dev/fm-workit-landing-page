@@ -4,15 +4,17 @@ import Button from "../atoms/Button";
 interface CardProfileProps {
   title: string;
   desc: string;
+  textLink: string,
+  link: string
 }
 
 export default function CardProfile(props: CardProfileProps) {
-  const { title, desc } = props;
+  const { title, desc, textLink, link } = props;
   return (
     <Wrapper>
       <Title>{title}</Title>
       <Desc>{desc}</Desc>
-      <Button href="/" text="Apply for access" />
+      <Button href={link} text={textLink} />
     </Wrapper>
   );
 }
