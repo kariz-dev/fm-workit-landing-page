@@ -8,6 +8,7 @@ export default function ImgProfile() {
       width={477}
       height={477}
       alt="Image founder"
+      priority
     />
   );
 }

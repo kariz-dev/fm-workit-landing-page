@@ -8,6 +8,7 @@ export default function HeroIllustration() {
       width={767}
       height={441}
       alt="Illustration right"
+      priority
     />
   );
 }
