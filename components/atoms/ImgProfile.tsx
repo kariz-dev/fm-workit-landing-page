@@ -12,4 +12,9 @@ export default function ImgProfile() {
   );
 }
 
-const Img = styled(Image)``;
+const Img = styled(Image)`
+  @media (max-width: 768px) {
+    width: 281px;
+    height: 281px;
+  }
+`;

@@ -35,6 +35,13 @@ const Wrapper = styled.div`
   border-bottom-left-radius: 50% 15%;
   border-bottom-right-radius: 50% 15%;
   position: relative;
+
+  @media (max-width: 768px) {
+    padding-top: 64px;
+    padding-bottom: 156px;
+    border-bottom-left-radius: 80% 18%;
+    border-bottom-right-radius: 80% 18%;
+  }
 `;
 
 const MainBannerTitle = styled.h2`
@@ -44,6 +51,11 @@ const MainBannerTitle = styled.h2`
   font-style: normal;
   font-family: "Fraunces 144pt";
   margin-bottom: 37px;
+
+  @media (max-width: 768px) {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
 
   span {
     border-bottom: 2px solid #44ffa1;
@@ -56,6 +68,10 @@ const BgImgLeft = styled(Image)`
   width: 270.29px;
   height: auto;
   top: 70px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 const BgImgRight = styled(Image)`
@@ -64,4 +80,8 @@ const BgImgRight = styled(Image)`
   width: 141.7px;
   height: auto;
   top: 300px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;

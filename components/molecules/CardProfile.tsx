@@ -26,12 +26,32 @@ const Wrapper = styled.div`
   height: fit-content;
   margin-left: -40px;
   align-self: flex-end;
+
+  @media (max-width: 768px) {
+    margin-top: -50px;
+    width: 100%;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  a {
+    width: fit-content;
+  }
 `;
 
 const Title = styled.h2`
   color: #fff;
   font-weight: 600;
   font-size: 56px;
+
+  @media (max-width: 768px) {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
 `;
 
 const Desc = styled.p`
@@ -39,4 +59,8 @@ const Desc = styled.p`
   font-weight: 400;
   font-size: 18px;
   margin-bottom: 35px;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `;

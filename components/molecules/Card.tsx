@@ -32,6 +32,10 @@ const Number = styled.p`
   border: 1px solid #584d62;
   border-radius: 50%;
   display: inline-block;
+
+  @media (max-width: 768px) {
+    margin-bottom: 24px;
+  }
 `;
 
 const Title = styled.h3`
@@ -41,6 +45,10 @@ const Title = styled.h3`
   line-height: 40px;
   color: #24053e;
   margin-bottom: 28px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 16px;
+  }
 `;
 
 const Desc = styled.p`

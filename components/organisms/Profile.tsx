@@ -22,4 +22,9 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   margin-bottom: 60px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 0 10px;
+  }
 `
