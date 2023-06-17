@@ -16,4 +16,11 @@ const MobileIllustration = styled(Image)`
   display: block;
   margin: -260px auto 0;
   position: relative;
+
+  @media (max-width: 768px) {
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    margin-top: -100px;
+  }
 `;

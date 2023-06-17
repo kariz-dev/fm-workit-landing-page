@@ -29,4 +29,11 @@ const Feature = styled.div`
   gap: 26px;
   justify-content: center;
   margin-top: 90px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+    gap: 40px;
+  }
 `

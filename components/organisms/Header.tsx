@@ -18,4 +18,8 @@ const Wrapper = styled.div`
   position: sticky;
   top: 0;
   left: 0;
+
+  @media (max-width: 768px) {
+    padding: 32px 16px 10px;
+  }
 `;
