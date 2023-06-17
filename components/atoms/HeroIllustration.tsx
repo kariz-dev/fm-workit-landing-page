@@ -15,4 +15,5 @@ export default function HeroIllustration() {
 const MobileIllustration = styled(Image)`
   display: block;
   margin: -260px auto 0;
+  position: relative;
 `;

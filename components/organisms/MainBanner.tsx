@@ -35,7 +35,6 @@ const Wrapper = styled.div`
   border-bottom-left-radius: 50% 15%;
   border-bottom-right-radius: 50% 15%;
   position: relative;
-  z-index: -1;
 `;
 
 const MainBannerTitle = styled.h2`
