@@ -21,4 +21,5 @@ const Wrapper = styled.div`
   margin: 80px auto 0;
   display: flex;
   align-items: center;
+  margin-bottom: 60px;
 `
