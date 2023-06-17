@@ -4,7 +4,7 @@
 
   <h2 align="center">Workit landing page</h2>
   <p align="center">
-    <a href="#" target="_blank"><strong>Demo</strong></a>
+    <a href="https://fm-workit-landing-page.vercel.app/" target="_blank"><strong>Demo</strong></a>
     <br />
   </p>
 </div>
@@ -21,8 +21,8 @@
 
 - |                |                          |
   | :------------- | :----------------------- |
-  | Solution URL:  | [Workit landing page](#) |
-  | Live Site URL: | [Demo](#)                |
+  | Solution URL:  | [Workit landing page](https://www.frontendmentor.io/solutions/workit-landing-page-SsZZlT84lW) |
+  | Live Site URL: | [Demo](https://fm-workit-landing-page.vercel.app/)                |
   |                |                          |
 
 <br>

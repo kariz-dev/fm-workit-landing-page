@@ -13,15 +13,17 @@ export default function MainBanner() {
       <Button href="/" text="Learn more" />
       <BgImgLeft
         src="/images/bg-pattern-1.svg"
-        width={270.29}
-        height={215.1}
+        width={270}
+        height={215}
         alt="Illustraion left"
+        priority
       />
       <BgImgRight
         src="/images/bg-pattern-2.svg"
-        width={141.7}
-        height={112.71}
+        width={141}
+        height={112}
         alt="Illustration right"
+        priority
       />
     </Wrapper>
   );

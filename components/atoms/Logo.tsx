@@ -13,6 +13,7 @@ export default function Logo(props: logoProps) {
       alt={alt}
       width={95}
       height={24}
+      priority
     />
   )
 }
